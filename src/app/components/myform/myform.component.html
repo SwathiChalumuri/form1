@@ -1,0 +1,46 @@
+<div>
+  <div>
+    <p>fill up</p>
+  </div>
+  <div fxLayoutAlign="center center" >
+    <mat-card fxLayout="column" >
+        <form [formGroup]="profileForm" class="example-form" fxLayout="column" fxLayoutAlign="center center" (ngSubmit)="onSubmit()">
+            <mat-form-field class="example-full-width">
+                <input matInput placeholder="FirstName" formControlName="fn" required>
+              </mat-form-field>
+
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="LastName" formControlName="ln" required>
+              </mat-form-field>
+
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="Department" formControlName="dept" required>
+              </mat-form-field>
+
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="Email Id" formControlName="email" required>
+              </mat-form-field>
+
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="Phone" formControlName="phone" required>
+              </mat-form-field>
+
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="City" formControlName="city" required>
+              </mat-form-field>
+
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="State" formControlName="state" required>
+              </mat-form-field>
+
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="Country" formControlName="country" required>
+              </mat-form-field>
+              
+          </form>
+          <div fxLayoutAlign="end center">
+            <button style="background-color: gainsboro;" mat-button type="submit" [disabled]="!profileForm.valid" (click)="onSubmit()">Submit</button>
+          </div>
+    </mat-card>
+</div>
+</div>

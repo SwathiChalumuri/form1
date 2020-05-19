@@ -1,0 +1,21 @@
+.example-form {
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 220px;
+  }
+
+  mat-card{
+      width: 500px;
+      height: 600px;
+      // background-color: salmon;
+  }
+
+  p{
+    font-size: 40px;
+    font-family: fantasy;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
