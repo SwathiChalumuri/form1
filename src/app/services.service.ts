@@ -13,6 +13,6 @@ export class ServicesService {
    }
 
   postData(obj){
-    return this.http.post('https://ruby-angular-app.herokuapp.com/api/user/', obj);
+    return this.http.post('https://angular-rails-app.herokuapp.com/api/user/', obj);
   }
 }
