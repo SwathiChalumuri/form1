@@ -18,7 +18,7 @@ export class MyformComponent implements OnInit {
       ln: new FormControl(''),
       dept: new FormControl(''),
       email: new FormControl(''),
-      phone: new FormControl(''),
+      phno: new FormControl(''),
       city: new FormControl(''),
       state: new FormControl(''),
       country: new FormControl(''),
