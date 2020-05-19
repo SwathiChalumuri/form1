@@ -13,6 +13,6 @@ export class ServicesService {
    }
 
   postData(obj){
-    return this.http.post('https://sheltered-ocean-02973.herokuapp.com/api/user/', obj);
+    return this.http.post('https://ruby-angular-app.herokuapp.com/api/user/', obj);
   }
 }
